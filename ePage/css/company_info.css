@@ -1,0 +1,44 @@
+.company_info {
+}
+
+.company_info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company_info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 6rem;
+}
+
+.company_info-container img {
+  width: 40rem;
+  height: 30rem;
+}
+
+.company_info-content h2 {
+  font-size: 60px;
+}
+
+.company_info-content p {
+  font-size: 24px;
+}
+
+.company_info-content button {
+  font-size: 18px;
+  width: max-content;
+  padding: 8px 12px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 300ms;
+  border: none;
+}
+
+.company_info-content button:hover {
+  background-color: grey;
+}
