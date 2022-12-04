@@ -1,0 +1,34 @@
+.costumers-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.costumers-header {
+  width: 50%;
+  padding-bottom: 3rem;
+}
+
+.costumers-header h2 {
+  font-size: 48px;
+  margin-bottom: 1.5rem;
+}
+.costumers-header p {
+  font-size: 18px;
+}
+
+.costumer-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.costumer-card img {
+  width: 22rem;
+}
+
+.costumer-card h3 {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.3em;
+}
