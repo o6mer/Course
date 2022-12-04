@@ -16,3 +16,32 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.spin {
+  transition: all 500ms;
+  animation: spinner 500ms linear infinite;
+}
+
+.spin:hover {
+  animation: none;
+}
+
+@keyframes spinner {
+  0% {
+    rotate: 0;
+    scale: 1;
+    translate: -100%;
+  }
+
+  50% {
+    scale: 2;
+    rotate: 180deg;
+    translate: 100%;
+  }
+
+  100% {
+    rotate: 360deg;
+    scale: 1;
+    translate: -100%;
+  }
+}
