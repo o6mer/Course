@@ -28,5 +28,6 @@ body {
 
   .section {
     padding: 4rem;
+    height: max-content;
   }
 }

@@ -21,7 +21,7 @@
 .hero-container p {
   margin-top: 2rem;
   color: rgb(165, 165, 165);
-  font-size: 38px;
+  font-size: 3rem;
 }
 
 .hero-image {
@@ -34,6 +34,18 @@
 @media screen and (max-width: 768px) {
   .hero {
     background-size: cover;
-    background-position: 55%;
+    background-position: center;
+  }
+
+  .hero-container{
+    gap: 3rem;
+  }
+
+  .hero-container h1{
+    font-size: 4rem;
+    margin-top: 1rem;
+  }
+  .hero-container p{
+    font-size: 3rem;
   }
 }
